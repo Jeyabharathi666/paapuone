@@ -29,7 +29,7 @@ URL = ["https://chartink.com/screener/copy-bearish-engulifing-see-after-3-15-pm-
        "https://chartink.com/screener/agp-shesha-bearish-2" ]
        
 sheet_id = "1h57GGy1883PE9MgqGg3oD7tyQqU3NxuTJwSwDnYOcZk"
-worksheet_name = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15","p16","p17","p18","p19","p20","p21","p22","p23","p24","p25","p26"]
+worksheet_name = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15","p16","p17","p18","p19","p20","p21","p22","p23","p24","p25"]
 
 def scrape_chartink(URL, worksheet_name):
     print(f"🚀 Starting Chartink scrape for {worksheet_name}...")
