@@ -27,4 +27,4 @@ jobs:
       - name: Run Python script
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
-        run: python pappuone.py
+        run: python pappuonep3.py
