@@ -3,8 +3,6 @@ from datetime import datetime
 import google_sheets  # assumes you have this module ready like in your Economic Times script
 import time
 URL = ["https://chartink.com/screener/copy-bearish-engulifing-see-after-3-15-pm-for-next-day-trade-5168",
-       "https://chartink.com/screener/copy-bearish-signal-daily-75",
-       "https://chartink.com/screener/copy-superbearish-stocks-for-short-only-212",
        "https://chartink.com/screener/copy-bearish-maribozu-337",
        "https://chartink.com/screener/copy-cci-below-100-62",
        "https://chartink.com/screener/copy-yesterday-and-today-ema3-without-open-high-bearish-55",
@@ -13,23 +11,17 @@ URL = ["https://chartink.com/screener/copy-bearish-engulifing-see-after-3-15-pm-
        "https://chartink.com/screener/copy-bearish-engulfing-moderate-478",
        "https://chartink.com/screener/copy-bolinger-band-bearish-reversal-aps-401",
        "https://chartink.com/screener/copy-bearish-momentum-stocks-1409",
-       "https://chartink.com/screener/copy-berish-ungli-2002",
-       "https://chartink.com/screener/copy-perfect-bearish-3266",
-       "https://chartink.com/screener/copy-sell-100-accuracy-morning-scanner-scan-at-9-30-7406",
-       "https://chartink.com/screener/copy-2d-sell-bollinger-band-2",
        "https://chartink.com/screener/copy-ut-sell-eod-basis-5",
-       "https://chartink.com/screener/agp-bearong-2",
        "https://chartink.com/screener/copy-1week-sell-twist",
        "https://chartink.com/screener/agp-services-bearish-1",
        "https://chartink.com/screener/sell-postesttttttttttttttttt",
        "https://chartink.com/screener/agp-bearong-2",
        "https://chartink.com/screener/sell-bollinger-band-weekly-15",
-       "https://chartink.com/screener/sell-after-1-day-watch-schaff-trend-cycle",
        "https://chartink.com/screener/shesha-bearish1",
        "https://chartink.com/screener/agp-shesha-bearish-2" ]
        
 sheet_id = "1h57GGy1883PE9MgqGg3oD7tyQqU3NxuTJwSwDnYOcZk"
-worksheet_name = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15","p16","p17","p18","p19","p20","p21","p22","p23","p24","p25"]
+worksheet_name = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15","p16","p17"]
 
 def scrape_chartink(URL, worksheet_name):
     print(f"🚀 Starting Chartink scrape for {worksheet_name}...")
