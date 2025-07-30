@@ -10,18 +10,21 @@ URL = ["https://chartink.com/screener/copy-bearish-engulifing-see-after-3-15-pm-
        "https://chartink.com/screener/srf-narayana-futures-positional-bearish",
        "https://chartink.com/screener/copy-bearish-engulfing-moderate-478",
        "https://chartink.com/screener/copy-bolinger-band-bearish-reversal-aps-401",
-       "https://chartink.com/screener/copy-bearish-momentum-stocks-1409",
        "https://chartink.com/screener/copy-ut-sell-eod-basis-5",
-       "https://chartink.com/screener/copy-1week-sell-twist",
-       "https://chartink.com/screener/agp-services-bearish-1",
        "https://chartink.com/screener/sell-postesttttttttttttttttt",
        "https://chartink.com/screener/agp-bearong-2",
        "https://chartink.com/screener/sell-bollinger-band-weekly-15",
        "https://chartink.com/screener/shesha-bearish1",
-       "https://chartink.com/screener/agp-shesha-bearish-2" ]
+       "https://chartink.com/screener/agp-shesha-bearish-2",
+       "https://chartink.com/screener/one-rupee-sidh-f-0-sell",
+       "https://chartink.com/screener/copy-sell-f-0",
+       "https://chartink.com/screener/copy-2-day-range-bound-f-o-99",
+       "https://chartink.com/screener/copy-copy-rsi-macd-f-o-sell-scan",
+       "https://chartink.com/screener/copy-f-o-weak-stocks-2",
+       "https://chartink.com/screener/copy-tt-sys-1-f-o-2"]
        
 sheet_id = "1h57GGy1883PE9MgqGg3oD7tyQqU3NxuTJwSwDnYOcZk"
-worksheet_name = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15","p16","p17"]
+worksheet_name = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15","p16","p17","p18","p19","p20"]
 
 def scrape_chartink(URL, worksheet_name):
     print(f"🚀 Starting Chartink scrape for {worksheet_name}...")
