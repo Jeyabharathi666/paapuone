@@ -14,12 +14,13 @@ URL = ["https://chartink.com/screener/copy-bearish-engulifing-see-after-3-15-pm-
        "https://chartink.com/screener/svp2-closing-3-up-since-3-days",
        "https://chartink.com/screener/copy-copy-how-to-find-future-and-option-stocks-buy-entry-future-3",
        "https://chartink.com/screener/copy-stocks-in-downtrend-1959",
-       "https://chartink.com/screener/copy-super-bearish-f-0-rsp-114",
+       "https://chartink.com/screener/copy-copy-super-bearish-f-0-rsp-17",
        "https://chartink.com/screener/copy-w6-f-o-2",
-       "https://chartink.com/screener/copy-1week-sell-twist"]
+       "https://chartink.com/screener/copy-1week-sell-twist"
+       "https://chartink.com/screener/copy-weekly-bollinger-sell-3"]
        
 sheet_id = "1h57GGy1883PE9MgqGg3oD7tyQqU3NxuTJwSwDnYOcZk"
-worksheet_name = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15"]
+worksheet_name = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15","p16"]
 
 def scrape_chartink(URL, worksheet_name):
     print(f"🚀 Starting Chartink scrape for {worksheet_name}...")
