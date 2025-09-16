@@ -110,8 +110,8 @@ def scrape_chartink(url, worksheet_name):
                 print(f"⚠️ No records found at {url}. Skipping update.")
                 rows = []
             else:
-                page.wait_for_selector("table.w-full tbody tr", timeout=60000)
-                table_rows = page.query_selector_all("table.w-full tbody tr")
+                page.wait_for_selector("div.relative table tbody tr", timeout=60000)
+                table_rows = page.query_selector_all("div.relative table tbody tr")
                 print(f"📥 Extracted {len(table_rows)} rows.")
 
                 rows = []
