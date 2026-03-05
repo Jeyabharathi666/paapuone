@@ -18,11 +18,20 @@ URLS = [
     "https://chartink.com/screener/copy-stocks-in-downtrend-1959",
     "https://chartink.com/screener/copy-w6-f-o-2",
     "https://chartink.com/screener/copy-1week-sell-twist",
-    "https://chartink.com/screener/copy-weekly-bollinger-sell-3"
+    "https://chartink.com/screener/copy-weekly-bollinger-sell-3",
+    "https://chartink.com/screener/sell-postesttttttttttttttttt",
+    "https://chartink.com/screener/copy-cci-below-100-62",
+    "https://chartink.com/screener/copy-bearish-rsi-stoc-1215",
+    "https://chartink.com/screener/srf-narayana-futures-positional-bearish",
+    "https://chartink.com/screener/sell-bollinger-band-weekly-15",
+    "https://chartink.com/screener/copy-bolinger-band-bearish-reversal-aps-401",
+    "https://chartink.com/screener/copy-ut-sell-eod-basis-5",
+    "https://chartink.com/screener/copy-sell-f-0",
+    "https://chartink.com/screener/copy-perfect-bearish-3266"
 ]
 
 sheet_id = "1h57GGy1883PE9MgqGg3oD7tyQqU3NxuTJwSwDnYOcZk"
-worksheet_names = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15"]
+worksheet_names = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15","p16","p17","p18","p19","p20","p21","p22","p23""p24"]
 
 def scrape_chartink(url, worksheet_name):
     print(f"\n🚀 Starting scrape for '{worksheet_name}'")
