@@ -27,11 +27,12 @@ URLS = [
     "https://chartink.com/screener/copy-bolinger-band-bearish-reversal-aps-401",
     "https://chartink.com/screener/copy-ut-sell-eod-basis-5",
     "https://chartink.com/screener/copy-sell-f-0",
-    "https://chartink.com/screener/copy-perfect-bearish-3266"
+    "https://chartink.com/screener/copy-perfect-bearish-3266",
+    "https://chartink.com/screener/copy-copy-copy-explosive-move-day-coming-in-1-2-days"
 ]
 
 sheet_id = "1h57GGy1883PE9MgqGg3oD7tyQqU3NxuTJwSwDnYOcZk"
-worksheet_names = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15","p16","p17","p18","p19","p20","p21","p22","p23","p24"]
+worksheet_names = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15","p16","p17","p18","p19","p20","p21","p22","p23","p24","p25"]
 
 def scrape_chartink(url, worksheet_name):
     print(f"\n🚀 Starting scrape for '{worksheet_name}'")
