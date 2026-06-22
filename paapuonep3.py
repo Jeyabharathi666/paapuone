@@ -4,35 +4,39 @@ import google_sheets
 import time
 
 URLS = [
+    "https://chartink.com/screener/copy-copy-copy-sreelakshmi-guruvayoorappan-b-atr-volume-rocket-8",
+    "https://chartink.com/screener/agp-bullish2-p5",
+    "https://chartink.com/screener/aaa13-vp-sheshapathi",
+    "https://chartink.com/screener/agp-shesha-bulloong1",
+    "https://chartink.com/screener/shesha-magic-buy-love",
+    "https://chartink.com/screener/copy-mahi-2-master-trader-vishnu-final-40-address-this-urgent-bellinaire-38-to-47-3",
+    "https://chartink.com/screener/agp-bullish2",
+    "https://chartink.com/screener/copy-atp-above-long-24",
+    "https://chartink.com/screener/22-nw-shesha-magic-buy-love-fut",
+    "https://chartink.com/screener/copy-nr-f-0",
+    "https://chartink.com/screener/copy-rk-position-f-0",
+    "https://chartink.com/screener/copy-f-0-future",
+    "https://chartink.com/screener/smbg2-new-multibegger-stocks-for-next-few-days",
+    "https://chartink.com/screener/cash-tss-momentum-long",
+    "https://chartink.com/screener/copy-atp-above-long-cash-2",
+    "https://chartink.com/screener/copy-copy-future-and-options-2-1-4",
+    "https://chartink.com/screener/copy-atp-above-long-fut1",
+    "https://chartink.com/screener/copy-copy-daily-min-f-0-trade-2",
+    "https://chartink.com/screener/copy-atr-volume-f-o-200-wkly-rsi-70-new",
+    "https://chartink.com/screener/copy-the-best-btst-193",
+    "https://chartink.com/screener/22-nw-shesha-magic-buy-love",
+    "https://chartink.com/screener/all-u1-nk-sir-s-uptrend-stocks-all-time-uptrend",
+    "https://chartink.com/screener/copy-sjbl6ch-shesha-buy-bollinger-band-weekly",
+    "https://chartink.com/screener/copy-copy-bb-blaster-2",
+    "https://chartink.com/screener/copy-atr-volume-f-o-200-wkly-rsi-70-16",
     "https://chartink.com/screener/copy-copy-copy-explosive-move-day-coming-in-1-2-days",
-    "https://chartink.com/screener/copy-multibagar-5",
     "https://chartink.com/screener/50-sreelakshmi-guruvayoorappan-b-atr-volume-rocket",
     "https://chartink.com/screener/50agp-bullish2-p5",
-    "https://chartink.com/screener/50aaa13-vp-sheshapathi",
-    "https://chartink.com/screener/50-oneeeeeee",
-    "https://chartink.com/screener/50shesha-magic-buy-love",
-    "https://chartink.com/screener/50atp-above-long",
-    "https://chartink.com/screener/50-daily-min-f-0-trade",
-    "https://chartink.com/screener/50-the-best-btst",
-    "https://chartink.com/screener/50-22-nw-shesha-magic-buy-love",
-    "https://chartink.com/screener/50-bearish-maribozu",
-    "https://chartink.com/screener/copy-w6-f-o-2",
-    "https://chartink.com/screener/copy-1week-sell-twist",
-    "https://chartink.com/screener/copy-weekly-bollinger-sell-3",
-    "https://chartink.com/screener/sell-postesttttttttttttttttt",
-    "https://chartink.com/screener/copy-cci-below-100-62",
-    "https://chartink.com/screener/copy-bearish-rsi-stoc-1215",
-    "https://chartink.com/screener/srf-narayana-futures-positional-bearish",
-    "https://chartink.com/screener/sell-bollinger-band-weekly-15",
-    "https://chartink.com/screener/copy-bolinger-band-bearish-reversal-aps-401",
-    "https://chartink.com/screener/copy-ut-sell-eod-basis-5",
-    "https://chartink.com/screener/copy-sell-f-0",
-    "https://chartink.com/screener/copy-perfect-bearish-3266",
-    "https://chartink.com/screener/copy-copy-copy-explosive-move-day-coming-in-1-2-days"
+    "https://chartink.com/screener/50aaa13-vp-sheshapathi"
 ]
 
 sheet_id = "1h57GGy1883PE9MgqGg3oD7tyQqU3NxuTJwSwDnYOcZk"
-worksheet_names = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15","p16","p17","p18","p19","p20","p21","p22","p23","p24","p25"]
+worksheet_names = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15","p16","p17","p18","p19","p20","p21","p22","p23","p24","p25","p26","p27","p28","p29"]
 
 def scrape_chartink(url, worksheet_name):
     print(f"\n🚀 Starting scrape for '{worksheet_name}'")
